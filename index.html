@@ -1,93 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>WEARHOUSE</title>
-
- <link rel="stylesheet" href="../css/style.css">
-</head>
-
-<body>
-<div class="wrapper">
- <!-- HERE IS NAVIGATION   -->
- <div class="site-header">
-  <div class="container">
-   <div class="site-header__inner">
-    <div class="site-header__mobile-nav hide-on-desktop">
-      <div id="site-header__nav-icon" >
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEARHOUSE</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- HERE IS NAVIGATION   -->
+      <div class="site-header">
+        <div class="container">
+          <div class="site-header__inner">
+            <div class="site-header__mobile-nav hide-on-desktop">
+              <div id="site-header__nav-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div id="mobile-menu" class="mobile-menu" aria-hidden="true">
+                <div class="mobile-menu__inner">
+                  <div class="mobile-menu__section">
+                    <ul class="mobile-menu__nav">
+                      <li class="mobile-menu__nav-item">
+                        <a href="" class="mobile-menu__nav-link" role="menuitem">HOME
+                        </a>
+                      </li>
+                      <li class="mobile-menu__nav-item">
+                        <a href="" class="mobile-menu__nav-link" role="menuitem">CATEGORY
+                        </a>
+                      </li>
+                      <li class="mobile-menu__nav-item">
+                        <a href="" class="mobile-menu__nav-link" role="menuitem">BLOG
+                        </a>
+                      </li>
+                      <li class="mobile-menu__nav-item">
+                        <a href="" class="mobile-menu__nav-link" role="menuitem">CONTACT
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Mobile nav menu end here -->
+            <div class="site-header__logo">
+              <a href="/" class="site-header__logo-link">
+              <img src="../img/logo.png" alt="WEARSTYLE" class="site-header__logo-image">
+              </a>
+            </div>
+            <nav class="site-header__navigation hide-on-mobile">
+              <ul class="site-header__linklist" role="menu">
+                <li class="site-header__linklist-item">
+                  <a href="#" class="site-header__link link" role="menuitem">Home</a>
+                </li>
+                <li class="site-header__linklist-item">
+                  <a href="#" class="site-header__link link" role="menuitem">Category</a>
+                </li>
+                <li class="site-header__linklist-item">
+                  <a href="#" class="site-header__link link" role="menuitem">Blog</a>
+                </li>
+                <li class="site-header__linklist-item">
+                  <a href="#" class="site-header__link link" role="menuitem">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="site-header__search-wrapper hide-on-mobile">
+              <form action="/">
+                <div class="site-header__search-container">
+                  <input class="site-header__search-input" type="text" placeholder="Search" name="search">
+                  <button class="site-header__search-submit" type="submit">
+                  <object type="image/svg+xml" data="../img/search.svg">
+                  </object>
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="site-header__icons">
+              <a href="#" class="site-header__account">
+              <object type="image/svg+xml" data="../img/user.svg">
+              </object>
+              </a>
+              <a href="#" class="site-header__favorite">
+              <object type="image/svg+xml" data="../img/heart.svg">
+              </object>
+              </a>
+              <a href="#" class="site-header__cart">
+              <object type="image/svg+xml" data="../img/cart.svg">
+              </object>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div class="site-header__mobile-nav-linklist">
-
+      <div class="banner-section">
+        <img class="banner-section__img" src="../img/main-baner.jpg" alt="">
       </div>
-
     </div>
-
-    <div class="site-header__logo">
-     <a href="/" class="site-header__logo-link">
-      <img src="../img/logo.png" alt="WEARSTYLE" class="site-header__logo-image">
-     </a>
-    </div>
-
-    <nav class="site-header__navigation hide-on-mobile">
-     <ul class="site-header__linklist" role="menu">
-
-      <li class="site-header__linklist-item">
-       <a href="#" class="site-header__link link" role="menuitem">Home</a>
-      </li>
-
-      <li class="site-header__linklist-item">
-       <a href="#" class="site-header__link link" role="menuitem">Category</a>
-      </li>
-
-      <li class="site-header__linklist-item">
-       <a href="#" class="site-header__link link" role="menuitem">Blog</a>
-      </li>
-
-      <li class="site-header__linklist-item">
-       <a href="#" class="site-header__link link" role="menuitem">Contact</a>
-      </li>
-     </ul>
-    </nav> 
-
-    <div class="site-header__search-wrapper hide-on-mobile">
-     <form action="/">
-      <div class="site-header__search-container">
-       <input class="site-header__search-input" type="text" placeholder="Search" name="search">
-       <button class="site-header__search-submit" type="submit">
-         <object type="image/svg+xml" data="../img/search.svg">
-        </object>
-       </button>
-     </div>
-     </form>
-    </div>
-
-    <div class="site-header__icons">
-    <a href="#" class="site-header__account">
-     <object type="image/svg+xml" data="../img/user.svg">
-     </object>
-    </a>
-    <a href="#" class="site-header__favorite">
-     <object type="image/svg+xml" data="../img/heart.svg">
-     </object>
-    </a>
-    <a href="#" class="site-header__cart">
-     <object type="image/svg+xml" data="../img/cart.svg">
-     </object>
-    </a>
-  </div>
-
-   </div>
-  </div>
- </div>
-</div>
-<script src="../js/custom.js"></script>
-</body>
-
+    <script src="../js/custom.js"></script>
+  </body>
 </html>
