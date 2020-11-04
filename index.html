@@ -10,38 +10,53 @@
 </head>
 
 <body>
-
+<div class="wrapper">
  <!-- HERE IS NAVIGATION   -->
  <div class="site-header">
   <div class="container">
    <div class="site-header__inner">
+    <div class="site-header__mobile-nav hide-on-desktop">
+      <div id="site-header__nav-icon" >
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="site-header__mobile-nav-linklist">
+
+      </div>
+
+    </div>
+
     <div class="site-header__logo">
      <a href="/" class="site-header__logo-link">
       <img src="../img/logo.png" alt="WEARSTYLE" class="site-header__logo-image">
      </a>
     </div>
 
-    <nav class="site-header__navigation">
+    <nav class="site-header__navigation hide-on-mobile">
      <ul class="site-header__linklist" role="menu">
 
-      <li class="site-header__item">
+      <li class="site-header__linklist-item">
        <a href="#" class="site-header__link link" role="menuitem">Home</a>
       </li>
 
-      <li class="site-header__item">
+      <li class="site-header__linklist-item">
        <a href="#" class="site-header__link link" role="menuitem">Category</a>
       </li>
 
-      <li class="site-header__item">
+      <li class="site-header__linklist-item">
        <a href="#" class="site-header__link link" role="menuitem">Blog</a>
       </li>
 
-      <li class="site-header__item">
+      <li class="site-header__linklist-item">
        <a href="#" class="site-header__link link" role="menuitem">Contact</a>
       </li>
      </ul>
     </nav> 
-    <div class="site-header__search-wrapper">
+
+    <div class="site-header__search-wrapper hide-on-mobile">
      <form action="/">
       <div class="site-header__search-container">
        <input class="site-header__search-input" type="text" placeholder="Search" name="search">
@@ -53,6 +68,7 @@
      </form>
     </div>
 
+    <div class="site-header__icons">
     <a href="#" class="site-header__account">
      <object type="image/svg+xml" data="../img/user.svg">
      </object>
@@ -65,13 +81,13 @@
      <object type="image/svg+xml" data="../img/cart.svg">
      </object>
     </a>
-    
+  </div>
 
    </div>
   </div>
  </div>
-
-
+</div>
+<script src="../js/custom.js"></script>
 </body>
 
 </html>
